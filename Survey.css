@@ -1,0 +1,70 @@
+.survey-container {
+    padding: 40px;
+    background-color:rgb(180, 225, 243) ;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .survey-header {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .survey-question {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .rating-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .rating-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .rating-button.selected {
+    background-color: orangered;
+    color: white;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .welcome-screen {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .welcome-screen button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .thank-you-screen {
+    text-align: center;
+    padding: 50px;
+  }
+ .prev{
+    background-color: blue;
+ }
+ .next{
+    background-color: pink;
+ }
+  
